@@ -5,6 +5,46 @@
 	(uuid "30fb269d-181e-4844-9e82-e5c3e09101dc")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 102.87) (xy 105.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9aa93b-38e2-42ac-8583-c8e06b26ee1d")
+	)
+	(wire
+		(pts
+			(xy 88.9 113.03) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302592e5-1f6d-47f0-940f-dffb58fbd31b")
+	)
+	(wire
+		(pts
+			(xy 88.9 125.73) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395d04e9-69e5-4ae0-b466-72f8758d992b")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 88.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de003103-08c1-482c-9afa-4ea73abbad8e")
+	)
 	(sheet
 		(at 186.69 95.25)
 		(size 62.23 36.83)
@@ -81,6 +121,36 @@
 				(justify left top)
 			)
 		)
+		(pin "CRX1" input
+			(at 105.41 102.87 180)
+			(uuid "b019dbeb-5add-49ca-a9ce-9fe12082f393")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTX1" output
+			(at 105.41 125.73 180)
+			(uuid "2ba065f5-be2a-4c0a-bfb8-b3c04c319913")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" output
+			(at 105.41 113.03 180)
+			(uuid "641df701-fd47-4830-adc6-8f457379da2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Traning_hardwear"
 				(path "/30fb269d-181e-4844-9e82-e5c3e09101dc"
@@ -121,6 +191,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RXD" output
+			(at 88.9 102.87 0)
+			(uuid "3e104a57-8044-4965-aaf3-4564e1b39b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" input
+			(at 88.9 113.03 0)
+			(uuid "08636bde-2dfa-42ac-8d19-e90e8bce9782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 88.9 124.46 0)
+			(uuid "26e23233-2c27-4d72-bd26-e759bc2adfd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
