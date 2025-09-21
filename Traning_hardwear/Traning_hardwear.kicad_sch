@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "30fb269d-181e-4844-9e82-e5c3e09101dc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 186.69 95.25)
+		(size 62.23 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a3a3b1f-4d7f-4392-ae92-2e826323d953")
+		(property "Sheetname" "Power"
+			(at 186.69 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 186.69 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Traning_hardwear"
+				(path "/30fb269d-181e-4844-9e82-e5c3e09101dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 93.98)
+		(size 59.69 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89da37a1-4554-47b7-9548-278a94db0d8e")
+		(property "Sheetname" "MCU"
+			(at 105.41 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 105.41 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Traning_hardwear"
+				(path "/30fb269d-181e-4844-9e82-e5c3e09101dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
